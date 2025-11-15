@@ -1,2 +1,2 @@
 #!/bin/bash
-
+mapfile -t files < <(ls -1)
