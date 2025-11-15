@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 # Get all PIDs of processes matching 4-to_infinity_and_beyond
+./4-to_infinity_and_beyond
 pids=$(pgrep -f 4-to_infinity_and_beyond)
-
+echo $pids
 # Loop over each PID and terminate it
 for pid in $pids; do
     pkill -15 -f "4-to_infinity_and_beyond"   # Forcefully kill matching processes
