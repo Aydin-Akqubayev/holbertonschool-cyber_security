@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#This code test
+a=($(ls -1))
+length=${#a[@]}
+for ((i=0;i<=$length;i++)); do
+	echo ${a[$i]#*-}
+done
