@@ -1,7 +1,3 @@
 #!/usr/bin/env bash
 # Stop the process silently
 pkill -15 -f 4-to_infinity_and_beyond > /dev/null 2>&1
-
-# Check the number of remaining processes related to "4-to_infinity_and_beyond"
-ps waux | grep -v "grep" | grep -c "4-to_infinity_and_beyond"
-
