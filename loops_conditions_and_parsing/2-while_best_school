@@ -1,7 +1,0 @@
-#!/bin/bash
-#This code write 5 times Best School
-count=0
-while [[ $count -gt 10 ]]; do
-	echo "Best School"
-	((count++))
-done

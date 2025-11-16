@@ -1,7 +1,0 @@
-#!/usr/bin/env bash
-#This code test
-IFS=$'\n' read -d '' -r -a a < <(ls -1)
-length="${#a[@]}"
-for ((i=0;i<length;i++)); do
-	echo "${a[$i]#*-}"
-done
