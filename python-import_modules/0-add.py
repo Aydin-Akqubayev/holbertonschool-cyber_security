@@ -10,4 +10,5 @@ def add(a, b):
         The return value. a + b
     """
     return f"{a} + {b} = {a + b}"
-
+if __name__ == "__main__":
+    print(add(a, b))
