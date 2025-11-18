@@ -3,7 +3,7 @@ import sys
 
 
 def main():
-    
+
     a = sys.argv[1:]
     length = len(a)
     i = 0
