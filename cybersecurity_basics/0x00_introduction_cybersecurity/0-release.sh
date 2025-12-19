@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $NAME
+echo -e $NAME'\n' 
