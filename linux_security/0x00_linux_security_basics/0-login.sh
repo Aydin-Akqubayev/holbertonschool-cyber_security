@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo last | tail  
+sudo last -F | tail  
