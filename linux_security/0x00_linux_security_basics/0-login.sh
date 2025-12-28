@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo last -F | tail  
+sudo last -F -5 
