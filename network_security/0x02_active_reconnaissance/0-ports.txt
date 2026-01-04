@@ -1,0 +1,9 @@
+Starting Nmap 7.95 ( https://nmap.org ) at 2026-01-04 18:34 +04
+Warning: 10.42.212.79 giving up on port because retransmission cap hit (2).
+Nmap scan report for active.hbtn (10.42.212.79)
+Host is up (0.12s latency).
+Not shown: 944 closed tcp ports (reset), 55 filtered tcp ports (no-response)
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 4.10 seconds
